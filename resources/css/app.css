@@ -1,0 +1,9 @@
+/*
+ * SIMARSIP Keuangan — base stylesheet.
+ *
+ * The full design system (colors, typography, radius, shadows, animation)
+ * now lives in resources/views/filament/custom-styles.blade.php, injected
+ * via the panel's HEAD_END render hook so it always loads last and wins
+ * the cascade. This file is intentionally kept minimal — add app-wide,
+ * non-Filament styles here if needed.
+ */
