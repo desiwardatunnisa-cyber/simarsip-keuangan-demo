@@ -2,6 +2,8 @@ FROM richarvey/nginx-php-fpm:3.1.6
 
 COPY . .
 
+RUN chmod +x scripts/*.sh
+
 ENV SKIP_COMPOSER 1
 ENV WEBROOT /var/www/html/public
 ENV PHP_ERRORS_STDERR 1
